@@ -1,0 +1,9 @@
+.pio/
+.vscode/
+build/
+*.log
+*.exe
+*.obj
+sdkconfig
+sdkconfig.*
+
