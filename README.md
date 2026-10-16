@@ -35,13 +35,3 @@ Projeto acadêmico de um robô com duas rodas controlado pelo navegador do celul
 
 O motor esquerdo usa `AO1` e `AO2`. O motor direito usa `BO1` e `BO2`. O negativo da bateria, o GND da ponte e o GND do ESP32 precisam compartilhar a mesma referência.
 
-## Como executar
-
-1. Abra a pasta no VS Code com PlatformIO instalado.
-2. Conecte o ESP32 por USB.
-3. Compile e grave o ambiente `esp32dev`.
-4. Conecte o celular à rede `ROBO_SUMO` usando a senha `prototipo32`.
-5. Abra `http://192.168.4.1` no navegador.
-
-Durante os testes, mantenha as rodas suspensas e confira todas as ligações antes de alimentar o pino `VM`.
-
